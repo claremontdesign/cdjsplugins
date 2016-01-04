@@ -1,0 +1,28 @@
+{
+	"name": "claremontdesign/cdjsplugins",
+	"description": "Claremontdesign JSPlugins Package",
+	"license": "ClaremontDesign/MadLabs License",
+	"authors": [
+		{
+			"name": "Dennes B Abing",
+			"email": "dennes.b.abing@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Claremontdesign\\Jsplugins\\": "src/"
+		},
+		"files": [
+			"src/Helpers/helpers.php"
+		]
+	},
+	"autoload-dev": {
+		"classmap": [
+			"tests/TestCase.php"
+		]
+	},
+	"minimum-stability": "dev",
+	"require": {
+		"illuminate/support": "~5"
+	}
+}
